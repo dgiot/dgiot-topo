@@ -48,15 +48,15 @@
 │   └── toolbar        // 导航
 ├── store
 │   └── index.js  // Vuex状态管理
-├── pages
-│   ├── index.less
-│   └── index.tsx
+├── views
+│   ├── index.vue
+│   └── index.less
 ├── styles
 │   ├── index.less
 │   └── theme
-├── typing.ts
 └── utils
-    └── util.ts
+    └── typing.js
+    └── util.js
 ```
 
 ## 功能特性

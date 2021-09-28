@@ -1,10 +1,10 @@
 <!--
 * @Author: h7ml
 * @Date: 20:11
-* @LastEditors: vivi
+* @LastEditors: h7ml
 * @LastEditTime: 20:11
 * @Description:
-* @FilePath: D:\msys64\home\vivi\github\npm\component\dgiot-topo\src\konva\layout\slider-right\index.vue
+* @FilePath: D:\msys64\home\h7ml\github\npm\component\dgiot-topo\src\konva\layout\slider-right\index.vue
 * @DocumentLink:
 -->
 <template>

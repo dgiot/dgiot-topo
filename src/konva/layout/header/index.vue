@@ -1,8 +1,8 @@
 <!--
-* @Author: vivi
-* @Date: 2021-09-27 20:21:32
-* @LastEditors: vivi
-* @LastEditTime: 2021-09-27 20:21:32
+* @Author: h7ml
+* @Date: 2021-09-28 12:08:36
+* @LastEditors: h7ml
+* @LastEditTime: 2021-09-28 12:08:36
 * @Description:
 * @FilePath: src\konva\layout\header\index.vue
 * @DocumentLink:
@@ -11,12 +11,11 @@
   <div class="index-container">
     <div class="index-content">
       {{ infoData }}
-      <div>
     </div>
+   </div>
 </template>
 
 <script>
-  import
   export default {
     name: index,
     components: {},

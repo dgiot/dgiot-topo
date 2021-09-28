@@ -5,7 +5,7 @@
 * @LastEditTime: 2021-09-28 12:07:02
 * @Description:
 * @FilePath: src\konva\canvas\index.vue
-* @DocumentLink:
+* @DocumentLink: https://github.com/great-tiger/konva/tree/master/1.%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E4%BE%8B%E5%AD%90%E7%9C%8BKonva%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84
 -->
 <template>
   <div class="index-container">
@@ -16,6 +16,7 @@
 
 <script>
   import moment from 'moment'
+  import store from '../../store'
   export default {
     name: 'index',
     components: {},
@@ -50,6 +51,8 @@
     methods: {
       createTopo(json){
         const stage = Konva.Node.create(json, 'kevCurrent')
+        // 存储到vuex中
+        store.dispatch("saveKonvaJson",stage.toJSON())
       }
 
     }, //如果页面有keep-alive缓存功能，这个函数会触发

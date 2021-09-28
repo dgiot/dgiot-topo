@@ -6,13 +6,27 @@ import createLogger from "vuex/dist/logger"
 const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 const state = () => ({
+  konvaJson: {}
 })
 
 const getters = {
+  konvaJson: (state) => state.konvaJson,
 }
 const mutations = {
+  saveKonvaJson(state, json) {
+    state.konvaJson = json
+  },
+  ClaerKonvaJson: (state) => {
+    state.konvaJson = {}
+  },
 }
 const actions = {
+  saveKonvaJson({ commit }, json) {
+    commit('saveKonvaJson', json)
+  },
+  ClaerKonvaJson({ commit }) {
+    commit('ClaerKonvaJson')
+  },
 }
 var plugins = [createPersistedState(),createLogger()]
 const dgiotStore =new Vuex.Store({

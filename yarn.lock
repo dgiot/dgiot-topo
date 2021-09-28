@@ -254,10 +254,10 @@
   dependencies:
     chalk "^4.0.0"
 
-"@dgiot/dgiotbus@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@dgiot/dgiotbus/-/dgiotbus-1.0.0.tgz#89ef0020115fbc7944e77c7bec3764162571f598"
-  integrity sha512-WJgm9JytCfwURVD2xNuCJzRW1lPT5vMONOappsS+N+0cwi6swbfVyIP6gfItiCj7RkRrY74nPn0/jtR8UEwm2w==
+"@dgiot/dgiotbus@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@dgiot/dgiotbus/-/dgiotbus-1.0.1.tgz#de197866759fc8229ff5e0aec007f025b2afb314"
+  integrity sha512-GOMkS72dIXC9HsgtJTDhc5UbN+9X6OOQO4WT4wIhjKWempQXF92CF7bmp7sbccm78q4hhARgFcxMjdA40PGiRg==
   dependencies:
     vue "^2.6.14"
 

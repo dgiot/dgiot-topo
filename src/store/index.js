@@ -16,7 +16,7 @@ const mutations = {
   saveKonvaJson(state, json) {
     state.konvaJson = json
   },
-  ClaerKonvaJson: (state) => {
+  ClearKonvaJson: (state) => {
     state.konvaJson = {}
   },
 }
@@ -25,7 +25,7 @@ const actions = {
     commit('saveKonvaJson', json)
   },
   ClaerKonvaJson({ commit }) {
-    commit('ClaerKonvaJson')
+    commit('ClearKonvaJson')
   },
 }
 var plugins = [createPersistedState(),createLogger()]

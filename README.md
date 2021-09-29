@@ -25,11 +25,18 @@
 
 > dgiot-topo 开源图片编辑器，采用Vue+JavaScript+Konva开发。
 
-![微服务架构图_02.png](https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/frontend/web/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%9B%BE_02.png)
+ + dgiot_topo通道是影子设备与前端组态页面之间的桥接通道，
+ + 实时订阅dgiot_task通道中解析成物模型的消息，
+ + 将物模型消息格式转换成knova组态json格式推送到前端组态页面，实现大屏上设备数据的实时更新
 
+![dgiot_topo.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/frontend/dgiottopo/dgiot_topo/dgiot_topo.png)
 ### 🏠 [Homepage](https://github.com/dgiot/dgiot-topo#readme)
 
 ### ✨ [演示地址](https://dgiot.github.io/dgiot-topo/)
+
+
+
+
 
 ## 项目目录
 ```
